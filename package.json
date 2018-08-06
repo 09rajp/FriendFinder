@@ -1,34 +1,25 @@
 {
-  "name": "friend-finder",
+  "name": "eat-da-burger",
   "version": "1.0.0",
-  "description": "An Node.js and Express based friend matching application.",
-  "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "path": "^0.12.7"
-  },
-  "engines": {
-    "node": "6.9.5"
-  },
-  "devDependencies": {},
+  "description": "restaurant application",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/purvam98/FriendFinder"
+    "url": "git+https://github.com/purvam98/Eat-Da-Burger.git"
   },
-  "keywords": [
-    "friend-finder",
-    "friend-match",
-    "compatibility"
-  ],
-  "author": "Purvam Chokshi",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/purvam98/FriendFinder/issues"
+    "url": "https://github.com/purvam98/Eat-Da-Burger/issues"
   },
-  "homepage": "https://github.com/purvam98/FriendFinder#readme"
+  "homepage": "https://github.com/purvam98/Eat-Da-Burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0"
+  }
 }
